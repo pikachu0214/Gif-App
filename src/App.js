@@ -29,7 +29,7 @@ export default class App extends Component {
   }
   //fetch promise method
   getData = () => {
-    fetch("http://api.giphy.com/v1/gifs/trending?api_key=dc6zaTOxFJmzC")
+    fetch("http://api.giphy.com/v1/gifs/trending?api_key=URL)
       .then(response => response.json())
       .then(responseData => {
         this.setState({ 
